@@ -1,0 +1,67 @@
+body{
+          margin: 0;
+}
+
+nav
+{
+   text-decoration: none;
+  padding: 20px;
+  text-align: center;
+  background-color: rgb(122, 122, 122);
+}
+
+.top_bar{
+          margin: 100px auto 100px;
+          text-align: center;
+          padding: 130px;
+          color: rgb(12, 12, 14);  
+       }
+
+ a{
+          color: black;
+          padding: 6px 10px;
+          border-radius: 5px;
+          margin: 100px;
+          text-decoration: none;
+          font-family:Georgia, 'Times New Roman', Times, serif;
+          border: solid black 2px;
+          background-color: rgb(122, 103, 103);
+                    
+}
+
+ .Top-Container
+ {
+    text-align: center;
+   
+
+ }
+ 
+ #height
+ {
+    width: auto;
+    margin: 10px;
+ }
+
+ .Calculate-btn
+ {
+    margin-top: 20px;
+    width: 10vb;
+    height: 5vh;
+    border: solid blue 3px;
+    border-radius: 10px;
+    
+ }
+
+ .weight-guide
+ {
+     text-align: center;
+     margin: 5%;
+ }
+
+ .Result{
+          text-align: center;
+          font-size: 35px;
+          margin: 10px;
+          padding: 10px;
+
+ }
