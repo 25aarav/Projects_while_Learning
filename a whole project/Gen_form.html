@@ -1,0 +1,108 @@
+<!DOCTYPE>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Online Registration</title>
+    <style>
+      
+       #form-wrapper
+       {
+         background-color: white;
+         width: 295px;
+         padding: "375px";
+         padding: 24px;
+         margin-left: auto;
+         margin-right: auto;
+       }
+       .input-label
+       {
+         margin: 0;
+         margin-top: 4px;
+         margin-bottom: 10px;
+       }
+
+       .input-item
+       {
+          width: 100%;
+       }
+
+       .terms-check
+       {
+          margin-top: 12px;
+          margin-bottom: 20px;
+
+       }
+    </style>
+  </head>
+
+  <body style="background-color: lightblue;">
+    
+
+     <h1 style="text-align: center;">
+       Sign Up
+     </h1>
+    <div>
+      <form id="form-wrapper" method="get" >
+        
+        
+         <div>
+            <p> <label for="fname">Full name </label></p>
+            <input class="input-item" type="text" name="fname" id="fname">
+         </div>
+         <div>
+           <p class ="input-label">Gmail</p>
+           <input class="input-item" type="email" name="email">
+         </div>
+         <div>
+           <p class ="input-label"> Password</p>
+           <input class="input-item" type="Password" name="Password">
+          
+         </div>
+         <div>
+           <p class ="input-label">Confirm-Password</p>
+           <input class="input-item" type="password" name="Confirm-passwrd">
+         </div>
+          <div>
+            <p class ="input-label">Gender:</p>
+            <input type="radio" id="Male" name="Gender" value="Male">
+            <label for="Male"> Male</label>
+            <input type="radio" id="Female" name="Gender" value="Female">
+            <label for="Female">Female</label>
+            <input type="radio" id="Other" name="Gender" value="Other">
+            <label for="Other">Other</label>         
+          </div>
+          <div>
+            <p class="input-label">Security-Question</p>
+            
+          <select class="input-item" name="Security Question">
+                 <option name="First job">
+                      First Job
+                 </option>
+                 <option name="Pet name">
+                  Pet name
+                 </option>
+                 <option name="Favourite place">
+                  Favourite place
+                 </option>
+           </select>  
+            
+                 <div>
+                  <textarea name="answer" rows="6" cols="35"></textarea>
+                  </div>
+                <div>
+                   <input class= "terms-check"type="checkbox" name="terms-comdition">
+                   I agree terms and condition
+                   </input>
+                </div>
+                <div>
+                  <input type="submit" value="register">
+                </div>
+              
+            
+          </div>
+
+
+      </form>
+    </div>
+  </body>
+</html>
